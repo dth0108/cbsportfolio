@@ -1,0 +1,60 @@
+"Create a professional personal website for Byungsoo Choi, CEO of Bies Worldwide.
+
+HERO SECTION:
+- Name: 최병수 (Byungsoo Choi)
+- Title: CEO of Bies Worldwide | Global Business Expert
+- Tagline: "18년간의 국제무역 경험으로 한국과 세계를 연결합니다"
+- Subtitle: "Connecting Korea with the World through 18 Years of International Trade Expertise"
+- Professional photo placeholder with corporate background
+- CTA buttons: "Contact Me" and "View Portfolio"
+
+ABOUT SECTION:
+- 18-year veteran in international steel trade and business development
+- Former Hyundai Corporation executive (Chief Manager)
+- Led $15M+ international projects across Europe, Middle East, Asia
+- Expertise in market expansion, supply chain management, AI-powered research
+- Awards: Employee of the Year 2011, 2013
+
+SERVICES SECTION:
+1. International Business Consulting
+   - Market entry strategies
+   - Global expansion planning
+   - Cross-cultural business negotiations
+
+2. Trade & Supply Chain Solutions
+   - International trade facilitation
+   - Supply chain optimization
+   - Vendor sourcing and management
+
+3. Wellness Products Global Sourcing
+   - Health and wellness product procurement
+   - Quality assurance and compliance
+   - International distribution networks
+
+EXPERIENCE TIMELINE:
+- 2020-2024: Chief Manager, Hyundai Corporation HQ
+- 2017-2020: Senior Manager, Hyundai Europe GmbH (Germany)
+- 2012-2016: Senior Sales Manager, Hyundai Corporation
+- 2007-2012: Assistant Sales Manager, Kolon Global
+
+KEY ACHIEVEMENTS:
+- Established branches in Brazil, South Africa, Poland
+- 15% sales growth in European region
+- 15 new key accounts acquisition
+- CITP certification (Korea International Trade Association)
+
+CONTACT FORM:
+- Name, Email, Phone, Company, Message fields
+- Language selection (Korean/English)
+- Service inquiry dropdown
+- Professional inquiry handling
+
+DESIGN REQUIREMENTS:
+- Clean, corporate blue and white color scheme
+- Modern typography (Korean: Noto Sans KR, English: Inter)
+- Responsive design for mobile/tablet/desktop
+- Smooth scrolling and animations
+- Professional business aesthetic
+- Korean/English language toggle in header
+- Next.js with Tailwind CSS
+- Contact: cbsplus@gmail.com, +82 10 9059 3235"

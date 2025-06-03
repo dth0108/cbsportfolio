@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 98%; /* #F8FAFC - slate-50 */
+  --foreground: 205 100% 5%; /* #0C151D */
+  --muted: 215 20% 93%; /* #E6EDF4 */
+  --muted-foreground: 210 15% 58%; /* #4574A1 */
+  --popover: 0 0% 100%;
+  --popover-foreground: 205 100% 5%;
+  --card: 0 0% 100%;
+  --card-foreground: 205 100% 5%;
+  --border: 215 20% 80%; /* #CDDCEA */
+  --input: 215 20% 80%;
+  --primary: 204 100% 62%; /* #359DFF */
+  --primary-foreground: 205 100% 5%;
+  --secondary: 215 20% 93%;
+  --secondary-foreground: 205 100% 5%;
+  --accent: 215 20% 93%;
+  --accent-foreground: 205 100% 5%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 204 100% 62%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 217 91% 60%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Noto Sans KR', 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-korean {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .font-english {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { 
+      opacity: 0; 
+    }
+    to { 
+      opacity: 1; 
+    }
+  }
+}
+
+/* Custom primary colors to match corporate blue */
+.bg-primary-50 { background-color: hsl(217 91% 96%); }
+.bg-primary-100 { background-color: hsl(217 91% 91%); }
+.bg-primary-500 { background-color: hsl(217 91% 60%); }
+.bg-primary-600 { background-color: hsl(217 91% 54%); }
+.bg-primary-700 { background-color: hsl(217 91% 48%); }
+.bg-primary-900 { background-color: hsl(217 91% 30%); }
+
+.text-primary-50 { color: hsl(217 91% 96%); }
+.text-primary-100 { color: hsl(217 91% 91%); }
+.text-primary-500 { color: hsl(217 91% 60%); }
+.text-primary-600 { color: hsl(217 91% 54%); }
+.text-primary-700 { color: hsl(217 91% 48%); }
+.text-primary-900 { color: hsl(217 91% 30%); }
+
+.border-primary-200 { border-color: hsl(217 91% 85%); }
+.border-primary-600 { border-color: hsl(217 91% 54%); }
+
+.hover\:bg-primary-200:hover { background-color: hsl(217 91% 85%); }
+.hover\:bg-primary-700:hover { background-color: hsl(217 91% 48%); }
+.hover\:text-primary-600:hover { color: hsl(217 91% 54%); }
+
+.focus\:ring-primary-500:focus { 
+  --tw-ring-color: hsl(217 91% 60%);
+}
